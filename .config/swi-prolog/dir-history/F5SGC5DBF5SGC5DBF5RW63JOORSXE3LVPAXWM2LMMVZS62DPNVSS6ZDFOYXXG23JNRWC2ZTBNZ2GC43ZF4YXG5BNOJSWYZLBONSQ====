@@ -1,0 +1,15 @@
+_HiStOrY_V2_
+consult('palindrome.pro').
+my_reverse("abc",\040X).
+my_reverse([a,\040b,\040c],\040X).
+halt.
+consult('palindrome.pro').
+my_palindrome(X),\040length(X,\0405).
+length(X,\0405),\040my_palindrome(X).
+my_palindrome([s,o,c,o,r,r,a,m,m,e,s,u,b,i,n,u,m,o,n,i,b,u,s,e,m,m,a,r,r,o,c,o,s]).
+my_palindrome([s,o,c,o,r,r,a,m,m,e,s,u,b,i,n,o,o,n,i,b,u,s,e,m,m,a,r,r,o,c,o,s]).
+my_palindrome([s,o,c,o,r,r,a,m,m,e,s,u,b,i,n,o,o,n,i,b,u,s,e,m,m,a,r,r,o,X,o,s]).
+my_palindrome([s,o,c,o,r,r,a,m,m,e,s,u,b,i,n,o,o,n,i,b,u,s,e,m,m,a,r,r,o,c,o,s]).
+my_palindrome([s,o,c,o,r,r,a,m,m,e,s,u,b,i,n,o,o,n,i,b,u,s,e,m,m,a,r,r,o,Y,o,X]).
+my_palindrome([s,o,c,o,r,r,a,m,m,e,s,u,b,i,n,o,o,n,i,b,u,s,e,m,m,a,r,r,o,c,o,s]).
+halt.

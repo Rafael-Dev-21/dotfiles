@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+slug=$1
+title=$2
+
+touch "_drafts/$slug.md"
+
+cat << EOF | ed "_drafts/$slug.md"
+i
+---
+title: $title
+date:
+categories:
+  -
+tags:
+  -
+layout: post
+last_modified_at:
+description:
+comments: true
+math: false
+toc: false
+---
+.
+w
+q
+EOF
+
+echo "Draft created $(date)"

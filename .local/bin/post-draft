@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+source ~/.bashrc
+shopt -s expand_aliases
+
+slug="$1"
+post="$(today)-$slug"
+
+cp _drafts/$slug.md _posts/$post.md
+
+cat << EOF | ed _posts/$post.md
+?date:?
+c
+date: $(jknow)
+.
+$
+?last_modified_at:?
+c
+last_modified_at: $(jknow)
+.
+w
+q
+EOF
+
+echo "Draft posted $(date)"

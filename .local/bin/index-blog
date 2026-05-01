@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+json='{"host": "rafael-dev-21.github.io", "key": "52d897377a14457085549e9abb3585ab", "keyLocation": "https://rafael-dev-21.github.io/52d897377a14457085549e9abb3585ab.txt", "urlList": [ "https://rafael-dev-21.github.io/2021/10/02/site-rafael-dev-21-no-ar", "https://rafael-dev-21.github.io/2021/10/05/jogo-da-cobrinha", "https://rafael-dev-21.github.io/2021/10/06/jogo-cobra-refatorado", "https://rafael-dev-21.github.io/2021/11/02/numeros", "https://rafael-dev-21.github.io/2022/11/28/voltando-a-desenhar", "https://rafael-dev-21.github.io/2022/12/01/aprendendo-a-desenhar-parte-1-de-30", "https://rafael-dev-21.github.io/2022/12/01/aprendendo-a-desenhar-parte-2-de-30", "https://rafael-dev-21.github.io/2022/12/02/aprendendo-a-desenhar-parte-3-de-30", "https://rafael-dev-21.github.io/2023/02/04/programando-uma-batalha-rpg-em-python", "https://rafael-dev-21.github.io/2023/02/04/o-maravilhoso-mundo-dos-vetores", "https://rafael-dev-21.github.io/2026/02/19/criei-um-site-de-webcomics", "https://rafael-dev-21.github.io/2026/02/19/atualizei-um-design-de-infancia", "https://rafael-dev-21.github.io/", "https://rafael-dev-21.github.io/sobre/" ]}'
+
+curl --header 'Content-Type: application/json; charset=utf-8' --request POST --data "$json" https://api.indexnow.org/IndexNow
+curl --header 'Content-Type: application/json; charset=utf-8' --request POST --data "$json" https://www.bing.com/indexnow
+curl --header 'Content-Type: application/json; charset=utf-8' --request POST --data "$json" https://www.yandex.com/indexnow

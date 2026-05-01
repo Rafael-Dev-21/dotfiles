@@ -1,0 +1,8 @@
+[user]
+	email = victorrafaelpereiraalves0202@gmail.com
+	name = Rafael 04th
+	editor = vi
+[core]
+	editor = vi
+[init]
+	defaultBranch = main

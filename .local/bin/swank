@@ -1,0 +1,15 @@
+#!/usr/bin/env -S sbcl --script
+
+(require :uiop)
+
+(load "~/.sbclrc")
+
+(defvar *console-io* *terminal-io*)
+
+(ql:quickload '(:swank) :silent t)
+
+(swank:create-server :port 4005 :dont-close t)
+
+(format t "Inferior Lisp Running...~%")
+
+(loop (sleep 1))

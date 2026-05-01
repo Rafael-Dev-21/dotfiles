@@ -1,0 +1,19 @@
+2026.03.19 01:47:55 LDMud 3.6.8 (3.6.8) (release)
+2026.03.19 01:47:55 Seeding PRG from /dev/urandom.
+2026.03.19 01:47:55 Attempting to start erq '/data/data/com.termux/files/home/.local/mud/bin/erq'.
+2026.03.19 01:47:55 UDP recv-socket requested for port: 4246
+2026.03.19 01:47:55 Function south() not found in /room/wiz_hall.
+2026.03.19 01:47:55 program: obj/simul_efun.c, object: room/wiz_hall line 484
+2026.03.19 01:47:55 LDMud ready for users.
+2026.03.19 01:47:57 Warning: Indexing past string end is deprecated: index 0, string length: 0.
+2026.03.19 01:47:57 program: players/lars/mapper.c, object: players/lars/mapper line 108
+2026.03.19 01:47:59 Warning: Indexing past string end is deprecated: index 0, string length: 0.
+2026.03.19 01:47:59 program: players/lars/mapper.c, object: players/lars/mapper line 108
+2026.03.19 01:48:01 Warning: Indexing past string end is deprecated: index 0, string length: 0.
+2026.03.19 01:48:01 program: players/lars/mapper.c, object: players/lars/mapper line 108
+2026.03.19 01:48:03 Warning: Indexing past string end is deprecated: index 0, string length: 0.
+2026.03.19 01:48:03 program: players/lars/mapper.c, object: players/lars/mapper line 108
+2026.03.19 01:48:07 Warning: Indexing past string end is deprecated: index 0, string length: 0.
+2026.03.19 01:48:07 program: players/lars/mapper.c, object: players/lars/mapper line 108
+2026.03.19 01:48:13 Warning: Indexing past string end is deprecated: index 0, string length: 0.
+2026.03.19 01:48:13 program: players/lars/mapper.c, object: players/lars/mapper line 108

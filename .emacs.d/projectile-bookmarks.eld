@@ -1,0 +1,1 @@
+("~/dev/skill-fantasy/" "~/projetos/skill-fantasy/" "/content/storage/com.android.externalstorage.documents/primary:Projetos/skill-fantasy/" "/content/storage/com.termux.documents/%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome/")
