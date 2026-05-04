@@ -15,6 +15,7 @@ call plug#begin()
 Plug 'kovisoft/slimv'
 Plug 'preservim/vim-pencil'
 Plug 'vim-airline/vim-airline'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
